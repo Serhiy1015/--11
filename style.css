@@ -177,19 +177,48 @@
     .write-to-us {
         display: flex;
         flex-direction: column;
-        
+
     }
 
     .font {
         font-size: 120%;
     }
-    .write-to-us h1{
+
+    .write-to-us h1 {
         text-align: center;
     }
-    .write-to-us label{
+
+    .write-to-us label {
         font-weight: 900;
     }
-    .features p{
+
+    .features p {
         font-weight: 600;
+    }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .contact div {
+        display: flex;
+        align-items: center;
+    }
+
+    .topic h4 {
+        margin-bottom: 1%;
+        margin-top: 0;
+    }
+    select{
+        width: 100%;
+        
+        border-radius: 5px;
+        font-weight: 900;
+        font-size: 100%;
+    }
+    .textarea h4{
+        margin-bottom: 1%;
     }
 }
