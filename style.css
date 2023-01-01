@@ -221,4 +221,274 @@
     .textarea h4{
         margin-bottom: 1%;
     }
+    hr{
+        width: 95%;
+       border-bottom: 0;
+       margin-top: 2%;
+    }
+    footer img{
+        width: 62%;
+        border: 1px solid;
+        border-radius: 50%;
+        padding: 3%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .footer-icon{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    footer h4{
+        text-align: center;
+    }
+}
+
+
+
+@media screen and (min-width:600px) and (max-width:850px) {
+    * {
+        font-family: Cormorant Garamond;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+    }
+
+    h1 {
+        font-size: 250%;
+    }
+
+    .links {
+        display: flex;
+        align-items: center;
+        gap: 2%;
+        width: 100%;
+        justify-content: space-around;
+
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .icon {
+        display: none;
+    }
+
+    .links h1 {
+        font-size: 150%;
+        font-weight: 900;
+    }
+
+    header nav {
+        padding: 0% 3%;
+    }
+
+    section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2%;
+    }
+
+    .story {
+        display: flex;
+     
+        align-items: center;
+    }
+
+    .story img {
+        width: 53%;
+    }
+
+    .story p {
+        width: 65%;
+    }
+
+    .text-left {
+        position: relative;
+        left: 5%;
+    }
+
+    .img-right {
+        position: relative;
+        /* right: 10%; */
+    }
+
+    .story button {
+        padding: 1% 2.5%;
+        background-color: rgba(240, 248, 255, 0);
+        border: 2px solid rgba(128, 128, 128, 0.31);
+        border-radius: 10px;
+    }
+
+    .middle-story img {
+        width: 39%;
+    }
+
+    .middle-story {
+        display: flex;
+        position: relative;
+        left: 10%;
+        align-items: center;
+        width: 80%;
+    }
+
+    .middle-story button {
+        padding: 1% 2.5%;
+        background-color: rgba(240, 248, 255, 0);
+        border: 2px solid rgba(128, 128, 128, 0.31);
+        border-radius: 10px;
+    }
+
+    .middle-story p {
+        width: 85%;
+    }
+
+    .middle-text {
+        position: relative;
+        left: 10%;
+    }
+
+    .photo img {
+        width: 25%;
+    }
+
+    .photo {
+        display: flex;
+    }
+
+    .gallery h1 {
+        text-align: center;
+    }
+
+    .gallery {
+        margin-top: 3%;
+    }
+
+    .features-divs {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .fearures-div-element {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .fearures-div-element p {
+        width: 75%;
+        text-align: center;
+    }
+
+    .features h1 {
+        text-align: center;
+    }
+
+    .features {
+        margin-top: 5%;
+    }
+
+    .name {
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+
+    }
+
+    .name-email-phone {
+        display: flex;
+        justify-content: space-around;
+        width: 850px;
+    }
+
+    .name input {
+        width: 90%;
+    }
+
+    .write-to-us {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .font {
+        font-size: 120%;
+    }
+
+    .write-to-us h1 {
+        text-align: center;
+    }
+
+    .write-to-us label {
+        font-weight: 900;
+    }
+
+    .features p {
+        font-weight: 600;
+    }
+
+    .contact {
+        display: flex;
+        align-items: center;
+        gap: 5%;
+    }
+
+    .contact div {
+        display: flex;
+        align-items: center;
+    }
+
+    .topic h4 {
+        margin-bottom: 1%;
+        margin-top: 0;
+    }
+    select{
+        width: 100%;
+        
+        border-radius: 5px;
+        font-weight: 900;
+        font-size: 100%;
+    }
+    .textarea h4{
+        margin-bottom: 1%;
+    }
+    hr{
+        width: 95%;
+       border-bottom: 0;
+       margin-top: 2%;
+    }
+    footer img{
+        width: 62%;
+        border: 1px solid;
+        border-radius: 50%;
+        padding: 3%;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .footer-icon{
+        width: 300px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    footer h4{
+        text-align: center;
+    }
 }
