@@ -160,22 +160,36 @@
     .name {
         display: flex;
         flex-direction: column;
+        width: 33%;
 
     }
 
     .name-email-phone {
         display: flex;
         justify-content: space-around;
-width: 1000px;
+        width: 850px;
     }
 
     .name input {
-        width: 150%;
+        width: 90%;
     }
 
     .write-to-us {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        
+    }
+
+    .font {
+        font-size: 120%;
+    }
+    .write-to-us h1{
+        text-align: center;
+    }
+    .write-to-us label{
+        font-weight: 900;
+    }
+    .features p{
+        font-weight: 600;
     }
 }
